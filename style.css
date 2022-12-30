@@ -1,0 +1,393 @@
+
+
+body {
+
+    color: rgb(32, 19, 19);
+}
+
+.intro-page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+#myIP {
+    position: absolute;
+    width: 790px;
+    height: 41px;
+    left: 41px;
+    top: 55px;
+    font-weight: 490;
+    font-size: 32px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.getDataBox {
+    position: absolute;
+    width: 303px;
+    height: 67px;
+    left: 41px;
+    top: 127px;
+    background: #000000;
+    border-radius: 10px;
+}
+
+.getData {
+    position: absolute;
+    width: 101px;
+    height: 29px;
+    left: 142px;
+    top: 146px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+/*  this is all about Landing Page Css */
+
+.landingPage {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF;
+}
+
+#landingIP {
+    position: absolute;
+    width: 1167px;
+    height: 41px;
+    left: 41px;
+    top: 59px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+
+}
+
+#latData {
+    position: absolute;
+    width: 450px;
+    height: 82px;
+    left: 41px;
+    top: 142px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#longData {
+    position: absolute;
+    width: 450px;
+    height: 82px;
+    left: 41px;
+    top: 192px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#cityData {
+    position: absolute;
+    width: 450px;
+    height: 82px;
+    left: 350px;
+    top: 142px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#regionData {
+    position: absolute;
+    width: 450px;
+    height: 82px;
+    left: 350px;
+    top: 192px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#OrganisationData {
+    position: absolute;
+    width: 650px;
+    height: 82px;
+    left: 620px;
+    top: 142px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#HostnameData {
+    position: absolute;
+    width: 1167px;
+    height: 82px;
+    left: 620px;
+    top: 192px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.map {
+    position: absolute;
+    top: 350px;
+    left: 200px;
+}
+
+#timezonedata {
+    position: absolute;
+    width: 1167px;
+    height: 41px;
+    left: 41px;
+    top: 978px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#date {
+    position: absolute;
+    width: 1167px;
+    height: 41px;
+    left: 41px;
+    top: 1048px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#pincodeData {
+    position: absolute;
+    width: 1167px;
+    height: 41px;
+    left: 41px;
+    top: 1118px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#pincodeMess {
+    position: absolute;
+    width: 1167px;
+    height: 41px;
+    left: 41px;
+    top: 1188px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+
+.filterBg {
+    position: absolute;
+    height: 85px;
+}
+
+.filt {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1250px;
+    height: 50px;
+    left: 41px;
+    top: 1322px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.filt {
+    position: absolute;
+    width: 163px;
+    height: 34px;
+    left: 32px;
+    top: 9px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.postbox1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 500px;
+    height: 280px;
+    left: 41px;
+    top: 1448px;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+#postal-name-1 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#postal-branch-type-1 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#postal-delivery-1 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 120px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#postal-district-1 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 170px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#postal-division-1 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 220px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.postbox{
+    box-sizing: border-box;
+    position: absolute;
+    width: 500px;
+    height: 280px;
+    left: 790px;
+    top: 1448px;
+    background: #ebe1e1;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+#postal-name-2 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #472a2a;
+}
+
+#postal-branch-type-2 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 70px;
+   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #342222;
+}
+
+#postal-delivery-2 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 120px;
+   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #493030;
+}
+
+#postal-district-2 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 170px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #332424;
+}
+
+#postal-division-2 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 220px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    color: #3b2e2e;
+}
